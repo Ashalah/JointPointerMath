@@ -117,7 +117,6 @@ September 24, 2014 - first draft.
 
 struct JointPointer_t
 {
-public:
 	void** Pointer;
 	size_t Size;
 	size_t Alignment;
