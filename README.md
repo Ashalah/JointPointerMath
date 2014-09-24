@@ -1,14 +1,14 @@
 JointPointerMath
 ================
 
-This is a tiny eader-only C++ library for automating pointer maths when making joint allocations.
+This is a tiny header-only C++ library for automating pointer maths when making joint allocations.
 It was inspired by Jonathan Blow's talk about future gamedev programming languages.
 
 Documentation is inside the header itself.
 
 
 Example usage:
-==============
+--------------
 
 	vec3* Vertices;
 	unsigned short* Indices;
