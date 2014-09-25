@@ -243,7 +243,7 @@ inline void* JointPointerAllocate(size_t* OutSize, void* (*Alloc)(size_t size), 
 		*JP.Pointer = (char*)Memory + (size_t)Ptr;
 		Ptr = ((char*)Ptr) + JP.Size;
 	}
-	return nullptr;
+	return Memory;
 }
 
 inline void* JointPointerAllocate(size_t* OutSize, void* (*Alloc)(size_t size, size_t alignment), std::initializer_list<JointPointer_t> ini)
@@ -275,7 +275,7 @@ inline void* JointPointerAllocate(size_t* OutSize, void* (*Alloc)(size_t size, s
 		*JP.Pointer = (char*)Memory + (size_t)Ptr;
 		Ptr = ((char*)Ptr) + JP.Size;
 	}
-	return nullptr;
+	return Memory;
 }
 
 #endif
