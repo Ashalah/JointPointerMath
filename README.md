@@ -1,7 +1,7 @@
 JointPointerMath
 ================
 
-This is a tiny header-only C++ library for automating pointer maths when making joint allocations.
+This is a tiny public domain header-only C++ library for automating pointer maths when making joint allocations.
 It was inspired by Jonathan Blow's talk about future gamedev programming languages.
 
 Documentation is inside the header itself.
